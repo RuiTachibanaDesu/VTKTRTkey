@@ -10,13 +10,13 @@ branch="main"
 
 git config --global user.email "alisedenk689@gmail.com"
 # Nama pengguna Git
-git_username="RuiTachibanaDesu"
+git config --global user.name "RuiTachibanaDesu"
 
 # Menambahkan perubahan ke staging area
 git add .
 
 # Melakukan commit perubahan dengan nama pengguna
-git commit -m "Add existing file" --author="$git_username"
+git commit -m "Add existing file"
 
 # Mendorong perubahan ke GitHub
 git push origin "$branch"
